@@ -22,4 +22,10 @@
     <Folder Include="Support\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Features\MMF.feature.cs">
+      <DependentUpon>Mmf.feature</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
 </Project>
